@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 10px;
+}
+.navbar ul {
+    margin-left: 50px;
+    float: right;
+    list-style: none;
+    display: flex;
+}
+.navbar ul a {
+    margin-right: 25px;
+    font-size: 20px;
+    color: gray;
+    text-transform: inherit;
+    text-decoration: none;
+}
+.img-docplanner {
+    justify-content: flex-start;
+    margin-left: 70px;
+    width: 250px;
+
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    margin-left: 50%;
+    margin-top: 100PX;
+}
+
+h2 {
+    text-align: center;
+    color: #00b39b;
+    font-size: 25px;
+}
+.paragraphe {
+    margin-top: 50px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+    font-family: 'Roboto', sans-serif;
+}
+.box p {
+    display: flex;
+    text-align: start;
+    color: gray;
+    font-size: 18px;
+    margin: 15%;
+    
+}
+.choisir {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+.choix-1 {
+    background-color: #00ccb1;
+    padding: 90px 20px;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 4%;
+}
+.choix-1 a {
+    color: aliceblue;
+    
+}
+.choix-2 {
+    background-color: #3d83df;
+    padding: 95px 30px;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 4%;
+}
+.choix-2 a {
+    color: aliceblue;
+    
+}
+.choix-3 {
+    background-color: #1b2734;
+    padding: 95px 30px;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 4%;
+}
+.choix-3 a {
+    color: aliceblue;
+    
+}
